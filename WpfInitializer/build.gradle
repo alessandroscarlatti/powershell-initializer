@@ -1,0 +1,4 @@
+task launchApp(type: Exec) {
+	workingDir projectDir
+	commandLine "cmd", "/c", "app.bat"
+}
